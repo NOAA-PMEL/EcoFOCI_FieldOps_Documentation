@@ -19,3 +19,4 @@ DataProcessingDocumentation/*/*/*/*/*/*.ipynb_checkpoints
 /DataProcessingDocumentation/*/*/*/*.csv
 /DataProcessingDocumentation/*/*/*/*/*.csv
 *.jupyterlab-workspace
+*.jupyterlab-workspace
