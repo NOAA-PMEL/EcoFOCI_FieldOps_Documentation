@@ -21,3 +21,4 @@ DataProcessingDocumentation/*/*/*/*/*/*.ipynb_checkpoints
 *.jupyterlab-workspace
 *.jupyterlab-workspace
 DataProcessingDocumentation/2. EcoFOCI_DataProcesssing_Records/.jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
+*.jupyterlab-workspace
