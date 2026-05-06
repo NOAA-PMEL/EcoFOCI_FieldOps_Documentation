@@ -1,0 +1,19 @@
+ECO 	FLSB-2694	
+Created on: 	4/2/2026	
+		
+:     	chl=ug/l        	
+:       LSS=NTU		
+: 	"iengrunits = µg/l for CHL, PC, PE. Ppb for CDOM and uranine."	
+: 	column 5 = input scale factor and offset.	
+		
+maxvoltage=	4.977	
+asv1=	6.2674	
+asv2=	12.5645	
+asv4=	25.1724	
+		
+COLUMNS=5		
+N/U=1		
+N/U=2		
+N/U=3		
+CHL=4	0.0076	48
+N/U=5		
