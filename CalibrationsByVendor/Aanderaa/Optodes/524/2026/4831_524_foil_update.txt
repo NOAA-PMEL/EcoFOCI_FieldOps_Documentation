@@ -1,0 +1,191 @@
+%
+!
+get all
+Product Name	4831F	524	Oxygen Optode
+Product Number	4831F	524	4831F
+Serial Number	4831F	524	524
+SW ID	4831F	524	1940031
+SW Version	4831F	524	4	9	1
+Node Description	4831F	524	Oxygen Optode #524
+Owner	4831F	524	
+Salinity[PSU]	4831F	524	0.00
+PhaseCoef	4831F	524	1.177000E+00	1.000000E+00	0.000000E+00	0.000000E+00
+FoilID	4831F	524	1207FM
+FoilCoefA	4831F	524	-3.176837E-06	-6.413872E-06	1.743939E-03	-1.904569E-01	7.106918E-04	-5.010922E-07	1.056089E+01	-6.135393E-02	1.165880E-04	-3.871131E-07	-3.042181E+02	2.469668E+00	-7.050199E-03	-2.616267E-05
+FoilCoefB	4831F	524	9.131562E-07	3.768247E+03	-4.024900E+01	1.506045E-01	1.097636E-03	-1.384983E-05	-3.184898E-07	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00
+FoilPolyDegT	4831F	524	1	0	0	0	1	2	0	1	2	3	0	1	2	3	4	0	1	2	3	4	5	0	0	0	0	0	0	0
+FoilPolyDegO	4831F	524	4	5	4	3	3	3	2	2	2	2	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+SVUFoilCoef	4831F	524	3.074224E-03	1.295049E-04	2.455192E-06	2.325440E+02	-3.585943E-01	-5.861958E+01	4.525371E+00
+ConcCoef	4831F	524	0.000000E+00	1.000000E+00
+NomAirPress[hPa]	4831F	524	1013.25
+NomAirMix	4831F	524	0.20946
+CalDataSat[Deg]	4831F	524	0.00	0.00
+CalDataAPress[hPa]	4831F	524	1013.250
+CalDataZero[Deg]	4831F	524	0.000	0.000
+Mode	4831F	524	Analog Output
+Enable Sleep	4831F	524	No
+Enable Polled Mode	4831F	524	No
+Enable Text	4831F	524	Yes
+Enable Decimalformat	4831F	524	Yes
+Analog TempLimit[Deg.C]	4831F	524	-5.00	35.00
+Analog ConcLimit[uM]	4831F	524	0.00	800.00
+Analog SatLimit[%]	4831F	524	0.00	200.00
+Analog PhaseLimit[Deg.]	4831F	524	10.00	70.00
+Analog Output	4831F	524	O2Concentration
+Analog1 Coef	4831F	524	0.000000E+00	1.000000E+00
+Analog2 Coef	4831F	524	0.000000E+00	1.000000E+00
+Enable AirSaturation	4831F	524	Yes
+Enable Rawdata	4831F	524	Yes
+Enable Temperature	4831F	524	Yes
+Enable HumidityComp	4831F	524	Yes
+Enable SVUformula	4831F	524	Yes
+Interval[s]	4831F	524	5.000
+Location	4831F	524	
+Geographic Position	4831F	524	60.323605,5.37225
+Vertical Position	4831F	524	
+Reference	4831F	524	
+#
+set passkey(1000)
+set foilid(2335F)
+get foilid
+
+#
+set foilid(2335F)
+#
+get foilid
+FoilID	4831F	524	2335F
+#
+Set FoilCoefA(3.493730E-03,1.468063E-04,2.477661E-06,1.971535E+02,-2.482858E-01,-4.270126E+01,3.835706E+00,2.060652E-07,6.517237E-07,-4.920964E-05,9.397440E-07,-1.259346E-04,4.247565E-03,-1.841960E-08)
+#
+Set FoilCoefB(-2.466254E+01,-6.766069E-06,1.733609E-03,-1.795859E-01,9.516006E+00,-2.646229E+02,3.211267E+03,0.000000E+00,0.000000E+00,0.000000E+00,0.000000E+00,0.000000E+00,0.000000E+00,0.000000E+00)
+#
+Set FoilPolyDegT(5,4,4,3,3,3,2,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+#
+Set FoilPolyDegO(0,1,2,0,1,2,0,1,2,3,0,1,2,3,0,1,2,3,4,0,1,2,3,4,5,0,0,0)
+#
+save
+#
+get all
+
+Product Name	4831F	524	Oxygen Optode
+Product Number	4831F	524	4831F
+Serial Number	4831F	524	524
+SW ID	4831F	524	1940031
+SW Version	4831F	524	4	9	1
+HW ID 1	4831F	524	
+HW Version 1	4831F	524	
+HW ID 2	4831F	524	
+HW Version 2	4831F	524	
+HW ID 3	4831F	524	
+HW Version 3	4831F	524	
+System Control	4831F	524	0	0	0
+Production Date	4831F	524	
+Last Service	4831F	524	
+Last Calibration	4831F	524	
+Calibration Interval[Days]	4831F	524	0
+Node Description	4831F	524	Oxygen Optode #524
+Owner	4831F	524	
+Baudrate	4831F	524	9600
+Flow Control	4831F	524	Xon/Xoff
+Enable Comm Indicator	4831F	524	Yes
+Comm Timeout	4831F	524	1 min
+Salinity[PSU]	4831F	524	0.00
+TempCoef	4831F	524	2.049362E+01	-3.128215E-02	2.891427E-06	-4.133799E-09	0.000000E+00	0.000000E+00
+PTC0Coef	4831F	524	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00
+PTC1Coef	4831F	524	1.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00
+PhaseCoef	4831F	524	1.177000E+00	1.000000E+00	0.000000E+00	0.000000E+00
+FoilID	4831F	524	2335F
+FoilCoefA	4831F	524	3.493730E-03	1.468063E-04	2.477661E-06	1.971535E+02	-2.482858E-01	-4.270126E+01	3.835706E+00	2.060652E-07	6.517236E-07	-4.920964E-05	9.397439E-07	-1.259346E-04	4.247565E-03	-1.841960E-08
+FoilCoefB	4831F	524	-2.466254E+01	-6.766069E-06	1.733609E-03	-1.795859E-01	9.516006E+00	-2.646229E+02	3.211267E+03	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00	0.000000E+00
+FoilPolyDegT	4831F	524	5	4	4	3	3	3	2	2	2	2	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FoilPolyDegO	4831F	524	0	1	2	0	1	2	0	1	2	3	0	1	2	3	0	1	2	3	4	0	1	2	3	4	5	0	0	0
+SVUFoilCoef	4831F	524	3.074224E-03	1.295049E-04	2.455192E-06	2.325440E+02	-3.585943E-01	-5.861958E+01	4.525371E+00
+ConcCoef	4831F	524	0.000000E+00	1.000000E+00
+NomAirPress[hPa]	4831F	524	1013.25
+NomAirMix	4831F	524	0.20946
+CalDataSat[Deg]	4831F	524	0.00	0.00
+CalDataAPress[hPa]	4831F	524	1013.250
+CalDataZero[Deg]	4831F	524	0.000	0.000
+Enable RedReference	4831F	524	Yes
+RedReference Interval	4831F	524	1
+Mode	4831F	524	Analog Output
+Enable Sleep	4831F	524	No
+Enable Polled Mode	4831F	524	No
+Enable Text	4831F	524	Yes
+Enable Decimalformat	4831F	524	Yes
+Analog TempLimit[Deg.C]	4831F	524	-5.00	35.00
+Analog ConcLimit[uM]	4831F	524	0.00	800.00
+Analog SatLimit[%]	4831F	524	0.00	200.00
+Analog PhaseLimit[Deg.]	4831F	524	10.00	70.00
+Analog Output	4831F	524	O2Concentration
+Analog1 Coef	4831F	524	0.000000E+00	1.000000E+00
+Analog2 Coef	4831F	524	0.000000E+00	1.000000E+00
+Enable AirSaturation	4831F	524	Yes
+Enable Rawdata	4831F	524	Yes
+Enable Temperature	4831F	524	Yes
+Enable HumidityComp	4831F	524	Yes
+Enable SVUformula	4831F	524	Yes
+Enable Burn-In Mode	4831F	524	No
+Interval[s]	4831F	524	5.000
+Location	4831F	524	
+Geographic Position	4831F	524	60.323605,5.37225
+Vertical Position	4831F	524	
+Reference	4831F	524	
+#
+	start
+
+#
+MEASUREMENT	4831F	524	O2Concentration[uM]	265.585	AirSaturation[%]	102.847	Temperature[Deg.C]	24.937	CalPhase[Deg]	28.998	TCPhase[Deg]	27.821	C1RPh[Deg]	36.084	C2RPh[Deg]	8.263	C1Amp[mV]	1976.7	C2Amp[mV]	1453.8	RawTemp[mV]	-139.9
+MEASUREMENT	4831F	524	O2Concentration[uM]	265.488	AirSaturation[%]	102.807	Temperature[Deg.C]	24.936	CalPhase[Deg]	29.002	TCPhase[Deg]	27.825	C1RPh[Deg]	36.086	C2RPh[Deg]	8.261	C1Amp[mV]	1976.6	C2Amp[mV]	1452.1	RawTemp[mV]	-139.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	265.602	AirSaturation[%]	102.849	Temperature[Deg.C]	24.935	CalPhase[Deg]	28.998	TCPhase[Deg]	27.821	C1RPh[Deg]	36.082	C2RPh[Deg]	8.261	C1Amp[mV]	1976.6	C2Amp[mV]	1451.3	RawTemp[mV]	-139.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	265.642	AirSaturation[%]	102.863	Temperature[Deg.C]	24.934	CalPhase[Deg]	28.997	TCPhase[Deg]	27.820	C1RPh[Deg]	36.081	C2RPh[Deg]	8.261	C1Amp[mV]	1981.3	C2Amp[mV]	1450.9	RawTemp[mV]	-139.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	263.794	AirSaturation[%]	102.311	Temperature[Deg.C]	25.021	CalPhase[Deg]	29.040	TCPhase[Deg]	27.863	C1RPh[Deg]	36.128	C2RPh[Deg]	8.266	C1Amp[mV]	2009.7	C2Amp[mV]	1450.0	RawTemp[mV]	-142.5
+MEASUREMENT	4831F	524	O2Concentration[uM]	267.683	AirSaturation[%]	103.703	Temperature[Deg.C]	24.960	CalPhase[Deg]	28.904	TCPhase[Deg]	27.727	C1RPh[Deg]	35.993	C2RPh[Deg]	8.266	C1Amp[mV]	2033.4	C2Amp[mV]	1449.6	RawTemp[mV]	-140.6
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.680	AirSaturation[%]	104.377	Temperature[Deg.C]	24.908	CalPhase[Deg]	28.843	TCPhase[Deg]	27.666	C1RPh[Deg]	35.933	C2RPh[Deg]	8.266	C1Amp[mV]	1974.1	C2Amp[mV]	1449.1	RawTemp[mV]	-139.0
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.366	AirSaturation[%]	104.242	Temperature[Deg.C]	24.901	CalPhase[Deg]	28.858	TCPhase[Deg]	27.681	C1RPh[Deg]	35.948	C2RPh[Deg]	8.266	C1Amp[mV]	1975.4	C2Amp[mV]	1448.7	RawTemp[mV]	-138.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.499	AirSaturation[%]	104.293	Temperature[Deg.C]	24.901	CalPhase[Deg]	28.853	TCPhase[Deg]	27.676	C1RPh[Deg]	35.941	C2RPh[Deg]	8.265	C1Amp[mV]	1975.0	C2Amp[mV]	1448.2	RawTemp[mV]	-138.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.724	AirSaturation[%]	104.383	Temperature[Deg.C]	24.903	CalPhase[Deg]	28.843	TCPhase[Deg]	27.666	C1RPh[Deg]	35.934	C2RPh[Deg]	8.267	C1Amp[mV]	1973.1	C2Amp[mV]	1447.9	RawTemp[mV]	-138.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.781	AirSaturation[%]	104.430	Temperature[Deg.C]	24.916	CalPhase[Deg]	28.836	TCPhase[Deg]	27.659	C1RPh[Deg]	35.927	C2RPh[Deg]	8.267	C1Amp[mV]	1972.2	C2Amp[mV]	1447.5	RawTemp[mV]	-139.2
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.871	AirSaturation[%]	104.500	Temperature[Deg.C]	24.933	CalPhase[Deg]	28.826	TCPhase[Deg]	27.649	C1RPh[Deg]	35.918	C2RPh[Deg]	8.269	C1Amp[mV]	1971.5	C2Amp[mV]	1447.1	RawTemp[mV]	-139.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	270.010	AirSaturation[%]	104.578	Temperature[Deg.C]	24.946	CalPhase[Deg]	28.816	TCPhase[Deg]	27.639	C1RPh[Deg]	35.910	C2RPh[Deg]	8.271	C1Amp[mV]	1970.3	C2Amp[mV]	1446.7	RawTemp[mV]	-140.2
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.889	AirSaturation[%]	104.571	Temperature[Deg.C]	24.967	CalPhase[Deg]	28.813	TCPhase[Deg]	27.636	C1RPh[Deg]	35.906	C2RPh[Deg]	8.270	C1Amp[mV]	1969.8	C2Amp[mV]	1446.3	RawTemp[mV]	-140.8
+%MEASUREMENT	4831F	524	O2Concentration[uM]	269.623	AirSaturation[%]	104.503	Temperature[Deg.C]	24.985	CalPhase[Deg]	28.817	TCPhase[Deg]	27.640	C1RPh[Deg]	35.911	C2RPh[Deg]	8.271	C1Amp[mV]	1969.8	C2Amp[mV]	1445.9	RawTemp[mV]	-141.4
+s!top
+*	ERROR	SYNTAX ERROR
+stop
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.395	AirSaturation[%]	104.450	Temperature[Deg.C]	25.003	CalPhase[Deg]	28.819	TCPhase[Deg]	27.642	C1RPh[Deg]	35.914	C2RPh[Deg]	8.271	C1Amp[mV]	1969.8	C2Amp[mV]	1445.6	RawTemp[mV]	-141.9
+#
+reset
+#
+%
+StartupInfo	4831F	524	Mode	Analog	RS232 Protocol Version	3	Config Version	12
+ 0-5V  Output 1: Oxygen Concentration(uM)  1.685V, use scaling coef. A:=0.000000E+00 B:=1.600000E+02
+ 0-5V  Output 2: Temperature  3.752V, use scaling coef. A:=-5.000000E+00 B:=8.000000E+00
+4-20mA Output 1: Oxygen Concentration(uM)  9.391mA, use scaling coef. A:=-2.000000E+02 B:=5.000000E+01
+4-20mA Output 2: Temperature Output2  16.005mA, use scaling coef. A:=-1.500000E+01 B:=2.500000E+00
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.568	AirSaturation[%]	104.536	Temperature[Deg.C]	25.013	CalPhase[Deg]	28.809	TCPhase[Deg]	27.632	C1RPh[Deg]	35.904	C2RPh[Deg]	8.272	C1Amp[mV]	1968.8	C2Amp[mV]	1445.3	RawTemp[mV]	-142.2
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.568	AirSaturation[%]	104.571	Temperature[Deg.C]	25.031	CalPhase[Deg]	28.802	TCPhase[Deg]	27.625	C1RPh[Deg]	35.901	C2RPh[Deg]	8.276	C1Amp[mV]	1968.4	C2Amp[mV]	1445.6	RawTemp[mV]	-142.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.430	AirSaturation[%]	104.557	Temperature[Deg.C]	25.052	CalPhase[Deg]	28.800	TCPhase[Deg]	27.623	C1RPh[Deg]	35.899	C2RPh[Deg]	8.277	C1Amp[mV]	1967.8	C2Amp[mV]	1444.9	RawTemp[mV]	-143.4
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.247	AirSaturation[%]	104.521	Temperature[Deg.C]	25.070	CalPhase[Deg]	28.800	TCPhase[Deg]	27.623	C1RPh[Deg]	35.900	C2RPh[Deg]	8.276	C1Amp[mV]	1967.5	C2Amp[mV]	1444.6	RawTemp[mV]	-144.0
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.384	AirSaturation[%]	104.597	Temperature[Deg.C]	25.082	CalPhase[Deg]	28.790	TCPhase[Deg]	27.613	C1RPh[Deg]	35.891	C2RPh[Deg]	8.278	C1Amp[mV]	1967.2	C2Amp[mV]	1444.2	RawTemp[mV]	-144.4
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.212	AirSaturation[%]	104.559	Temperature[Deg.C]	25.097	CalPhase[Deg]	28.792	TCPhase[Deg]	27.615	C1RPh[Deg]	35.892	C2RPh[Deg]	8.277	C1Amp[mV]	1966.5	C2Amp[mV]	1444.0	RawTemp[mV]	-144.8
+MEASUREMENT	4831F	524	O2Concentration[uM]	269.096	AirSaturation[%]	104.540	Temperature[Deg.C]	25.110	CalPhase[Deg]	28.791	TCPhase[Deg]	27.614	C1RPh[Deg]	35.893	C2RPh[Deg]	8.279	C1Amp[mV]	1966.4	C2Amp[mV]	1443.7	RawTemp[mV]	-145.2
+sto!MEASUREMENT	4831F	524	O2Concentration[uM]	269.144	AirSaturation[%]	104.586	Tempeprature[Deg.C]	25.124	CalPhase[Deg]	28.784	TCPhase[Deg]	27.607	C1RPh[Deg]	35.888	C2RPh[Deg]	8.281	C1Amp[mV]	1966.1	C2Amp[mV]	1443.5	RawTemp[mV]	-145.7
+stop
+*	ERROR	SYNTAX ERROR
+stopMEASUREMENT	4831F	524	O2Concentration[uM]	269.068	AirSaturation[%]	104.5
+82	Temperature[Deg.C]	25.138	CalPhase[Deg]	28.782	TCPhase[Deg]	27.605	C1RPh[Deg]	35.886	C2RPh[Deg]	8.281	C1Amp[mV]	1965.8	C2Amp[mV]	1443.2	RawTemp[mV]	-146.1
+#
+do ajd
+
+*	ERROR	PROPERTY ERROR
+do adjustgain
+
+
+
+Gain seting Adjusted to:
+C1Gain		5	4	3	3	2	3	1	3	128	128	128	128
+C2Gain		5	2	3	3	2	3	1	3	200	200	200	200
+#
+MEASUREMENT	4831F	524	O2Concentration[uM]	267.195	AirSaturation[%]	103.962	Temperature[Deg.C]	25.194	CalPhase[Deg]	28.837	TCPhase[Deg]	27.660	C1RPh[Deg]	35.612	C2RPh[Deg]	7.952	C1Amp[mV]	983.3	C2Amp[mV]	905.0	RawTemp[mV]	-147.8
+%
