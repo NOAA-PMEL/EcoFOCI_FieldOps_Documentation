@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0" >
+  <Instrument Type="10" >
+    <Name>SBE 16plus V2 Seacat CTD</Name>
+    <PressureSensorType>2</PressureSensorType>
+    <MooredPressure>0.00000e+000</MooredPressure>
+    <TemperatureType>0</TemperatureType>
+    <UserSuppliedTemperature>1.50000e+001</UserSuppliedTemperature>
+    <ExternalVoltageChannels>1</ExternalVoltageChannels>
+    <!-- Serial RS-232 Sensor: 0 = None. -->
+    <SerialRS232C_Sensor>0</SerialRS232C_Sensor>
+    <SampleIntervalSeconds>1.00000e+001</SampleIntervalSeconds>
+    <NmeaPositionDataAdded>0</NmeaPositionDataAdded>
+    <NmeaDepthDataAdded>0</NmeaDepthDataAdded>
+    <NmeaTimeAdded>0</NmeaTimeAdded>
+    <NmeaDeviceConnectedToPC>0</NmeaDeviceConnectedToPC>
+    <SensorArray Size="4" >
+      <Sensor index="0" SensorID="58" >
+        <TemperatureSensor SensorID="58" >
+          <SerialNumber>50676</SerialNumber>
+          <CalibrationDate>25-Dec-25</CalibrationDate>
+          <A0>1.26593792e-003</A0>
+          <A1>2.69208388e-004</A1>
+          <A2>-3.88677459e-007</A2>
+          <A3>1.46910870e-007</A3>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </TemperatureSensor>
+      </Sensor>
+      <Sensor index="1" SensorID="3" >
+        <ConductivitySensor SensorID="3" >
+          <SerialNumber>50676</SerialNumber>
+          <CalibrationDate>25-Dec-25</CalibrationDate>
+          <UseG_J>1</UseG_J>
+          <!-- Cell const and series R are applicable only for wide range sensors. -->
+          <SeriesR>0.0000</SeriesR>
+          <CellConst>2000.0000</CellConst>
+          <ConductivityType>0</ConductivityType>
+          <Coefficients equation="0" >
+            <A>0.00000000e+000</A>
+            <B>0.00000000e+000</B>
+            <C>0.00000000e+000</C>
+            <D>0.00000000e+000</D>
+            <M>0.0</M>
+            <CPcor>-9.57000000e-008</CPcor>
+          </Coefficients>
+          <Coefficients equation="1" >
+            <G>-9.90353976e-001</G>
+            <H>1.39279696e-001</H>
+            <I>-2.02655642e-004</I>
+            <J>3.62896311e-005</J>
+            <CPcor>-9.57000000e-008</CPcor>
+            <CTcor>3.2500e-006</CTcor>
+            <!-- WBOTC not applicable unless ConductivityType = 1. -->
+            <WBOTC>0.00000000e+000</WBOTC>
+          </Coefficients>
+          <Slope>1.00000000</Slope>
+          <Offset>0.00000</Offset>
+        </ConductivitySensor>
+      </Sensor>
+      <Sensor index="2" SensorID="46" >
+        <PressureSensor SensorID="46" >
+          <SerialNumber>50676</SerialNumber>
+          <CalibrationDate>17-Dec-25</CalibrationDate>
+          <PA0>2.48783583e+000</PA0>
+          <PA1>2.61660679e-003</PA1>
+          <PA2>1.63921432e-011</PA2>
+          <PTEMPA0>-6.03082384e+001</PTEMPA0>
+          <PTEMPA1>5.40754961e+001</PTEMPA1>
+          <PTEMPA2>-3.44952836e-001</PTEMPA2>
+          <PTCA0>5.24532213e+005</PTCA0>
+          <PTCA1>6.43254893e+001</PTCA1>
+          <PTCA2>-9.42812459e-001</PTCA2>
+          <PTCB0>2.53651278e+001</PTCB0>
+          <PTCB1>2.25563910e-004</PTCB1>
+          <PTCB2>0.00000000e+000</PTCB2>
+          <Offset>0.000000</Offset>
+        </PressureSensor>
+      </Sensor>
+      <Sensor index="3" SensorID="20" >
+        <FluoroWetlabECO_AFL_FL_Sensor SensorID="20" >
+          <SerialNumber>ECOV2-10116</SerialNumber>
+          <CalibrationDate>1/8/26</CalibrationDate>
+          <ScaleFactor>4.79400000e-003</ScaleFactor>
+          <!-- Dark output -->
+          <Vblank>54.0000</Vblank>
+        </FluoroWetlabECO_AFL_FL_Sensor>
+      </Sensor>
+    </SensorArray>
+  </Instrument>
+</SBE_InstrumentConfiguration>
