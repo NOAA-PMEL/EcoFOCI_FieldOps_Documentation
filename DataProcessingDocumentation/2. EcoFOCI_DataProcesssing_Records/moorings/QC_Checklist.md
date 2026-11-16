@@ -23,7 +23,3 @@ Data Access
     - [] this deployment
     - [] all deployments
 
-
-Furthur Needs
-Vetted
-- []

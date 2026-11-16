@@ -4,7 +4,7 @@
 
 Run BBATCH software (on windows or wine) to get output processed data in ascii form.  
 - This requires config files (.FMT) for processing
-TODO: Replace above software with more modern approach via WinADCP?
+*** pyadps [https://pypi.org/project/pyadps/] or D.Strausz custom software in python (found in EcoFOCIpy/tools) no longer require BBATCH ***
 
 Walk through CSV+MetaData -> NetCDF JupyterNotebook.
 - point to files
@@ -17,14 +17,14 @@ Walk through CSV+MetaData -> NetCDF JupyterNotebook.
 QC Steps:
 - find first good bin
 - trim in the vertical
-- remove excessively large values
+- remove excessively large values (500cm/s or 750 cm/s)
 - interpolate max 1 hours linearly in time
-- interpolate max 2 bins in the vertical
+- interpolate max 1 bins in the vertical
 
 - compare to RCM if available (not often but sometimes collocated)
 
 Tidal Evaluation
-- look at 2 bin from top and 2 bin from bottom
+- Use Depth averaged u/v
 - calculate tidal ellipses and compare to known good ellipses
 
 Data Submission to ERDDAP
@@ -33,6 +33,7 @@ Data Submission to ERDDAP
 
 ## Workflow for RCM 7/9/11 & SG Processing:
 - if RCM 7/9/11 , convert raw DSU data to ascii
+- if SG , convert to tsv file
 
 Walk through CSV+MetaData -> NetCDF JupyterNotebook.
 - point to files
@@ -44,5 +45,6 @@ Walk through CSV+MetaData -> NetCDF JupyterNotebook.
 - trim deployment dates
 
 QC Steps:
-- often there is an oxygen sensor, correct for salinity (0PSU->measured)
 - remove excessively large values
+- compare to ADCP if collocated
+- calculate tidal ellipse for reference location (or on whole stack)
